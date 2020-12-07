@@ -1,3 +1,0 @@
-# Anna-Mrowczyk
-ŚWIĄTECZNY KALENDARZ TESTERSKI
-
