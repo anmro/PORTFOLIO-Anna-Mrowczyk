@@ -1,0 +1,54 @@
+ID 1.1
+Tytuł: Zakładanie konta
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Użytkownik nie posiadający załozonego konta, posiadający e-mail.
+Kroki reprodukcji: 
+  1. Kilknięcie przycisku "Create Your Free Website"
+  2. Wprowadzenie danych: imię, nazwisko, adres e-mail,
+  3. Kliknięcie przycisku "Create Free Account"
+Oczekiwany rezultat: Utworzenie konta
+Dane testowe:  anamy@gmail.com
+Autor: Anna Mrowczyk
+
+
+ID 1.2 
+Tytuł: Poprawne logowanie do konta
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Niezalogowany użytkownik, posiadający aktywne konto
+Kroki reprodukcji: 
+  1. Wprowadz adres e-mail
+  2. Wprowadzenie hasło
+  3. Kliknięcie przycisku "Sing in"
+Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
+Dane testowe:  anamy@gmail.com
+Autor: Anna Mrowczyk
+
+
+ID 1.3
+Tytuł: Poprawne skonfigurowanie ustawień użytkownika
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik
+Kroki reprodukcji: 
+  1. 
+  2.
+  ....
+Oczekiwany rezultat: Zachowanie wybranych ustawień użytkownika
+Dane testowe:  anamy@gmail.com
+Autor: Anna Mrowczyk
+
+
+ID 2.1
+Tytuł: Poprawne dodanie oferty
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik, poprawne zdjęcia
+Kroki reprodukcji: 
+  1. 
+  2.
+  ....
+Oczekiwany rezultat: Dodanie oferty
+Dane testowe:  anamy@gmail.com
+Autor: Anna Mrowczyk
