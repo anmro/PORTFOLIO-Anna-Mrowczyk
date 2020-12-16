@@ -1,0 +1,79 @@
+Nazwa projektu: propertywebbuilder.com
+Imię i nazwisko autora: Anna Mrowczyk
+Wersja: 1.0
+
+I. WSTĘP
+Projekt polega na przetestowaniu strony internetowej o adresie: https://propertywebbuilder.com/ 
+Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego użytkownika/klienta o zaprzestaniu korzystania z w/w strony.
+Dostarczenie materiału dla deweloperów do wprowadzenia poprawek i w drugiej kolejności do przeprowadzenia testów regresyjnych. 
+
+II. OPIS
+1. Obiekt
+https://propertywebbuilder.com/
+2. Lista rzeczy do przetestowania
+- zakładanie konta,
+- logowanie do konta,
+- wprowadzanie ustawień użytkowanika,
+- dodawanie ofert,
+- wyszukiwanie ofert,
+- kontakt klienta.
+3. Lista rzeczy których nie należy testować
+- zabezpieczenia,
+- kod źródłowy.
+4. Wymagania systemowe
+OS
+  - Windows 7 i wyższy
+  - Android 8 i wyższy
+Przeglądarka
+  - Chrome
+  - Firefox
+  - Edge
+5. System śledzenia błędów
+Błędy należy zgłaszać poprzez Issues. 
+Tutuł powinien zostać skąstruowany jak poniżej:
+[Urządzenie(Przeglądarka)][Obszar] - Opis błędu
+Przykład: 
+        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto na e-mail który był już użyty do utworzenia konta
+        
+III. Zarządzanie projektem testerskim
+
+1. Zespół i zadania
+Maria Kowalska - tester,
+Tomasz Kwiatek - tester,
+Anna Mrowczyk - tester,
+Mariusz Noga - deweloper,
+Katarzyna Kwik - lider projektu
+
+2. Harmonogram testów
+Rozpoczęcie testów 21.12.2020
+Zakończenie testów 24.12.2020
+Prace deweloperskie 28-30.12.2020
+Testy regresyjne 4-8.01.2021
+
+3. Środowisko testów
+Windows 7 (Chrom)
+Windows 10 (Firefox)
+Android 9.0 (Chrom)
+
+4. Narzędzia testowe
+- program do robienia zrzutów ekranu,
+- program do nagrywania działań na ekranie
+- Jira
+
+5. Kryteria zakończenia testów
+Termin zakończenia 24.12.2020 lub osiągnięcie limitu błędów - 100.  
+
+6. Defekty
+Rodzaje defektów: funkcjonalne, wizualne, kontekstowe, wydajnościowe
+
+Ważność: 
+      krytyczny (brak możliwości korzystania ze strony),
+      wysoki (znaczne utrudnione korzystanie ze strony)
+      średni (niewielki utrudnione korzystanie ze strony)
+      niski (kosmetyczne błędy)
+      
+7. Śledzenie statusu błędów i raportowanie
+Raportowanie błędów odbywać się będzie w programie jira. 
+
+8. Ryzyko
+Potencjalna zbyt duża ilość błędów, za krótki czas na ich zgłoszenie. W dalszej kolejności mało czasu na naprawę defektów. 
