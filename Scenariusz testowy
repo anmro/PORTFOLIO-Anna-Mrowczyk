@@ -1,0 +1,72 @@
+Firma:                                testerzy.com
+Formularz aplikacji testów            
+Nr dokumentu:                         1
+Nazwa projektu:                       Testowanie sklepu internetowego 
+Zadanie:                              Przetestowanie strony internetowej o adresie: http://automationpractice.com/index.php                           
+Osoby wykonujące testy:               Tomasz Kwiatek 
+
+Testowane elementy:                   Testowanie funkcji filtrowania produktów
+Opis:                                 Przetestowanie strony pod kontem możliwości filtrowania produktów po kolorze, rozmiarze, cenie
+Wersja: 1
+
+
+1. 
+Cel testu:                            Filtrowanie produktów po kolorze - przypadek pozytywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór koloru "Black"
+Oczekiwana wartość:                   Wyświetlenie produktów jedynie w kolorze czarnym
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
+
+2. 
+Cel testu:                            Filtrowanie produktów po kolorze - przypadek negatywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór koloru "Black"
+Oczekiwana wartość:                   Wyświetlenie produktów w równych kolorach
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
+
+3. 
+Cel testu:                            Filtrowanie produktów po rozmiarze - przypadek pozytywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór koloru "L"
+Oczekiwana wartość:                   Wyświetlenie produktów jedynie w rozmiarze L
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
+
+
+4. 
+Cel testu:                            Filtrowanie produktów po rozmiarze - przypadek negatywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór koloru "L"
+Oczekiwana wartość:                   Wyświetlenie produktów w różnych rozmiarach
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
+
+5. 
+Cel testu:                            Filtrowanie produktów po cenie - przypadek pozytywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór ceny z przedziału $16 - $29.69
+Oczekiwana wartość:                   Wyświetlenie produktów we wskazanym przedziale cenowym
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
+
+6. 
+Cel testu:                            Filtrowanie produktów po cenie - przypadek negatywny
+Stan początkowy:                      Strona główna http://automationpractice.com/index.php
+Akcja:                                
+                                      1. Wybór katerogii "Women"
+                                      2. Wybór ceny z przedziału $16 - $29.69
+Oczekiwana wartość:                   Wyświetlenie produktów w cenach również spoza przedziału cenowego
+Wartość testu:                        Zamrożenie strony
+Status/Ocena:                         Porażka
