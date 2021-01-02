@@ -2,13 +2,16 @@ ID 1.1
 Tytuł: Zakładanie konta
 Środowisko: 
 Wersja: 1.0
-Warunki wstępne: Użytkownik nie posiadający załozonego konta, posiadający e-mail.
+Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail.
 Kroki reprodukcji: 
-  1. Kilknięcie przycisku "Create Your Free Website"
-  2. Wprowadzenie danych: imię, nazwisko, adres e-mail,
-  3. Kliknięcie przycisku "Create Free Account"
+  1. Otwarcie strony http://automationpractice.com/index.php
+  2. Kilknięcie przycisku "Sing in"
+  3. Wprowadzenie danych: tester.a.mouse@gmail.com"
+  4. Kliknięcie przycisku "Create an Account"
+  5. Wprowadzenie danych:first name, last name, password, address, city, state, zip/postal code, country, mobile phone, 
+  6. Kliknięcie przycisku "Register"
 Oczekiwany rezultat: Utworzenie konta
-Dane testowe:  anamy@gmail.com
+Dane testowe:  email address: tester.a.mouse@gmail.com
 Autor: Anna Mrowczyk
 
 
@@ -18,37 +21,184 @@ Tytuł: Poprawne logowanie do konta
 Wersja: 1.0
 Warunki wstępne: Niezalogowany użytkownik, posiadający aktywne konto
 Kroki reprodukcji: 
-  1. Wprowadz adres e-mail
+  1. Otwarcie strony http://automationpractice.com/index.php
+  2. Kilknięcie przycisku "Sing in"
+  3. Wprowadz adres e-mail
   2. Wprowadzenie hasło
   3. Kliknięcie przycisku "Sing in"
 Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
-Dane testowe:  anamy@gmail.com
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    password: tester1
 Autor: Anna Mrowczyk
 
 
 ID 1.3
-Tytuł: Poprawne skonfigurowanie ustawień użytkownika
+Tytuł: Odzyskiwanie hasła
 Środowisko: 
 Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik
+Warunki wstępne: Niezalogowany użytkownik
 Kroki reprodukcji: 
-  1. 
-  2.
-  ....
-Oczekiwany rezultat: Zachowanie wybranych ustawień użytkownika
-Dane testowe:  anamy@gmail.com
+  1. Otwarcie strony http://automationpractice.com/index.php
+  2. Kilknięcie przycisku "Sing in"
+  3. Kliknięcie przycisku "Forgot your password"
+  4. Wprowadzenie adresu e-mail
+  5. Kliknięcie przycisku "Retrive password"
+  6. Otwarcie skrzynku email
+  7. Kliknięcie linku do zmiany hasła
+Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
 Autor: Anna Mrowczyk
 
 
 ID 2.1
-Tytuł: Poprawne dodanie oferty
+Tytuł: Dodanie produktu do koszyka
 Środowisko: 
 Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik, poprawne zdjęcia
+Warunki wstępne: Zalogowany użytkownik
 Kroki reprodukcji: 
-  1. 
-  2.
-  ....
-Oczekiwany rezultat: Dodanie oferty
-Dane testowe:  anamy@gmail.com
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Zalogowanie się 
+  3.  Otwarcie podstrony dowolnego produktu 
+  4.  Kliknięcie przycisku "Add to cart"
+  5.  Kliknięcie przycisku "Continue shopping"
+  6.  Kliknięcie przycisku "Cart" 
+Oczekiwany rezultat: Dodanie dowolnego produktu do koszyka
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    hasło: tester1
+Autor: Anna Mrowczyk
+
+
+ID 2.2
+Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Zalogowanie się 
+  3.  Otwarcie podstrony dowolnego produktu 
+  4.  Kliknięcie przycisku "Add to cart"
+  5.  Kliknięcie przycisku "Proceed to checkout"
+  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  7.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  8.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+  9.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  10. Kliknięcie przycisku "Pay by bank wire"
+  11. Kliknięcie przycisku "I confirme my order"
+Oczekiwany rezultat:Zakup dowolnego produktu i dodanie go do historii zamówień. 
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    hasło: tester1
+Autor: Anna Mrowczyk
+
+
+ID 2.3
+Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Zalogowanie się 
+  3.  Otwarcie podstrony dowolnego produktu 
+  4.  Kliknięcie przycisku "Add to cart"
+  5.  Kliknięcie przycisku "Proceed to checkout"
+  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  7.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  8.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+  9.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  10. Kliknięcie przycisku "Pay by check"
+  11. Kliknięcie przycisku "I confirme my order"
+Oczekiwany rezultat:Zakup dowolnego produktu i dodanie go do historii zamówień. 
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    hasło: tester1
+Autor: Anna Mrowczyk
+
+ID. 2.4
+Tytuł: Dodanie dowolnego produktu do listy ulubionych
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Zalogowanie się 
+  3.  Otwarcie podstrony dowolnego produktu 
+  4.  Kliknięcie przycisku "Add to wishlist"
+  5.  Kliknięcie przysku zamknięcia komunikatu "x"
+Oczekiwany rezultat: Dodanie dowolnego produktu do listy ulubionych.
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    hasło: tester1
+Autor: Anna Mrowczyk
+
+ID. 2.5
+Tytuł: Filtrowanie produktów po kolorze
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: brak
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Wybór katerogii "Women"
+  3.  Wybór koloru "Black"
+Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym
+Dane testowe: brak
+Autor: Anna Mrowczyk
+
+ID. 2.6
+Tytuł: Filtorwanie produktów po rozmiarze
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: brak
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Wybór katerogii "Women"
+  3.  Wybór rozmiaru: "L"
+Oczekiwany rezultat: Wyświetlenie produktów jedynie w rozmiarze L.
+Dane testowe: brak
+Autor: Anna Mrowczyk
+
+
+ID. 2.7
+Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: brak
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Wybór katerogii "Women"
+  3.  Kliknięcie przycisku "Sort by"
+  4.  Wybór i kliknięcie "Price: Lowest first"
+Oczekiwany rezultat: Wyświetlenie produktów uporządkowanych od najwyższej do najniższej ceny
+Dane testowe: brak
+Autor: Anna Mrowczyk
+
+
+ID. 2.8
+Tytuł: Wyszukiwanie produktów
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: brak
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Wpisanie w wyszukiwarkę: "yellow"
+Oczekiwany rezultat: Wyświetlenie produktów ze słowiem "yellow" w nazwie
+Dane testowe: brak
+Autor: Anna Mrowczyk
+
+
+ID. 3.1.
+Tytuł: Sprawdzenie działania linków w stopce
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: brak
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Przewinięcie do dołu strony
+  3.  Sprawdzenie każdego elementu stopki pod kontem poprawności ładowania podstrony
+Oczekiwany rezultat: Poprawne wyświetlenie wszytskich podstron, do których linki zostały umieszczone w stopce.
+Dane testowe: brak
 Autor: Anna Mrowczyk
