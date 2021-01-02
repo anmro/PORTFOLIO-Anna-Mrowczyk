@@ -72,6 +72,22 @@ Autor: Anna Mrowczyk
 
 
 ID 2.2
+Tytuł: Usunięcie produktu z koszyka
+Środowisko: 
+Wersja: 1.0
+Warunki wstępne: Zalogowany użytkownik, dowolny produkt w koszyku
+Kroki reprodukcji: 
+  1.  Otwarcie strony http://automationpractice.com/index.php
+  2.  Kliknięcie przycisku "Cart" 
+  3.  Kliknięcie przycisku Delete (ikonka kosz na śmieci)
+Oczekiwany rezultat: Usunięcie dowolnego produktu z koszyka
+Dane testowe:  
+    email address : tester.a.mouse@gmail.com   
+    hasło: tester1
+Autor: Anna Mrowczyk
+
+
+ID 2.3
 Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
 Środowisko: 
 Wersja: 1.0
@@ -95,7 +111,7 @@ Dane testowe:
 Autor: Anna Mrowczyk
 
 
-ID 2.3
+ID 2.4
 Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
 Środowisko: 
 Wersja: 1.0
@@ -118,7 +134,7 @@ Dane testowe:
     hasło: tester1
 Autor: Anna Mrowczyk
 
-ID. 2.4
+ID. 2.5
 Tytuł: Dodanie dowolnego produktu do listy ulubionych
 Środowisko: 
 Wersja: 1.0
@@ -135,7 +151,7 @@ Dane testowe:
     hasło: tester1
 Autor: Anna Mrowczyk
 
-ID. 2.5
+ID. 2.6
 Tytuł: Filtrowanie produktów po kolorze
 Środowisko: 
 Wersja: 1.0
@@ -148,7 +164,7 @@ Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym
 Dane testowe: brak
 Autor: Anna Mrowczyk
 
-ID. 2.6
+ID. 2.7
 Tytuł: Filtorwanie produktów po rozmiarze
 Środowisko: 
 Wersja: 1.0
@@ -162,7 +178,7 @@ Dane testowe: brak
 Autor: Anna Mrowczyk
 
 
-ID. 2.7
+ID. 2.8
 Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
 Środowisko: 
 Wersja: 1.0
@@ -177,7 +193,7 @@ Dane testowe: brak
 Autor: Anna Mrowczyk
 
 
-ID. 2.8
+ID. 2.9
 Tytuł: Wyszukiwanie produktów
 Środowisko: 
 Wersja: 1.0
