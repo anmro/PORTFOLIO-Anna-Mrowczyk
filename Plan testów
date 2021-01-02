@@ -16,8 +16,9 @@ http://automationpractice.com/index.php
 - odzyskiwanie hasła,
 - dodawanie produktu do koszyka,
 - zakup,
-- sorotwanie i filtorwanie prouktów,
-- wyszukiwanie protuktów,
+- dodawanie produktu do listy ulubionych,
+- sortowanie i filtorwanie prouktów,
+- wyszukiwanie produktów,
 - kontakt.
 3. Lista rzeczy których nie należy testować
 - zabezpieczenia,
