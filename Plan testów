@@ -1,22 +1,24 @@
-Nazwa projektu: propertywebbuilder.com
+Nazwa projektu: Testowanie sklepu internetowego 
 Imię i nazwisko autora: Anna Mrowczyk
 Wersja: 1.0
 
 I. WSTĘP
-Projekt polega na przetestowaniu strony internetowej o adresie: https://propertywebbuilder.com/ 
-Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego użytkownika/klienta o zaprzestaniu korzystania z w/w strony.
+Projekt polega na przetestowaniu strony internetowej o adresie: http://automationpractice.com/index.php
+Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego klienta o dokonaniu zakupu na w sklepie internetowym.
 Dostarczenie materiału dla deweloperów do wprowadzenia poprawek i w drugiej kolejności do przeprowadzenia testów regresyjnych. 
 
 II. OPIS
 1. Obiekt
-https://propertywebbuilder.com/
+http://automationpractice.com/index.php
 2. Lista rzeczy do przetestowania
 - zakładanie konta,
 - logowanie do konta,
 - wprowadzanie ustawień użytkowanika,
-- dodawanie ofert,
-- wyszukiwanie ofert,
-- kontakt klienta.
+- dodawanie prokuktu do koszyka,
+- zakup,
+- sorotwanie i filtorwanie prouktów,
+- wyszukiwanie protuktów,
+- kontakt.
 3. Lista rzeczy których nie należy testować
 - zabezpieczenia,
 - kod źródłowy.
@@ -27,13 +29,12 @@ OS
 Przeglądarka
   - Chrome
   - Firefox
-  - Edge
 5. System śledzenia błędów
 Błędy należy zgłaszać poprzez Issues. 
-Tutuł powinien zostać skąstruowany jak poniżej:
+Tutuł powinien zostać skonstruowany jak poniżej:
 [Urządzenie(Przeglądarka)][Obszar] - Opis błędu
 Przykład: 
-        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto na e-mail który był już użyty do utworzenia konta
+        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto używająć na e-mail dla którego już istnieje konto
         
 III. Zarządzanie projektem testerskim
 
@@ -58,7 +59,7 @@ Android 9.0 (Chrom)
 4. Narzędzia testowe
 - program do robienia zrzutów ekranu,
 - program do nagrywania działań na ekranie
-- Jira
+- githube.com
 
 5. Kryteria zakończenia testów
 Termin zakończenia 24.12.2020 lub osiągnięcie limitu błędów - 100.  
@@ -73,7 +74,7 @@ Ważność:
       niski (kosmetyczne błędy)
       
 7. Śledzenie statusu błędów i raportowanie
-Raportowanie błędów odbywać się będzie w programie jira. 
+Raportowanie błędów odbywać się będzie na platformie https://github.com/anmro/Anna-Mrowczyk/issues,
 
 8. Ryzyko
 Potencjalna zbyt duża ilość błędów, za krótki czas na ich zgłoszenie. W dalszej kolejności mało czasu na naprawę defektów. 
