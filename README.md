@@ -4,4 +4,5 @@
 2. Plan testów 
 3. Przypadki testowe
 4. Scenariusz testowy
-5. Regresja
+5. Zgłoszenie błędów na podstawie scenariusza testowego
+6. Regresja
