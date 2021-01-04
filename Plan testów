@@ -47,10 +47,10 @@ Mariusz Noga - deweloper,
 Katarzyna Kwik - lider projektu
 
 2. Harmonogram testów
-Rozpoczęcie testów 21.12.2020
-Zakończenie testów 24.12.2020
-Prace deweloperskie 28-30.12.2020
-Testy regresyjne 4-8.01.2021
+Rozpoczęcie testów 04.01.2021
+Zakończenie testów 15.01.2021
+Prace deweloperskie 18-29.01.2021
+Testy regresyjne 1-5.02.2021
 
 3. Środowisko testów
 Windows 7 (Chrom)
@@ -63,7 +63,7 @@ Android 9.0 (Chrom)
 - githube.com
 
 5. Kryteria zakończenia testów
-Termin zakończenia 24.12.2020 lub osiągnięcie limitu błędów - 100.  
+Termin zakończenia 15.01.2021 lub osiągnięcie limitu błędów - 100.  
 
 6. Defekty
 Rodzaje defektów: funkcjonalne, wizualne, kontekstowe, wydajnościowe
