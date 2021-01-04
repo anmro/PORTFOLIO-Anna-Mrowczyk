@@ -1,0 +1,65 @@
+Firma:                                testerzy.com
+Formularz aplikacji testów            
+Nr dokumentu:                         1
+Nazwa projektu:                       Testowanie sklepu internetowego 
+Zadanie:                              Przetestowanie strony internetowej o adresie: http://automationpractice.com/index.php                           
+Osoby wykonujące testy:               Tomasz Kwiatek 
+
+Testowane elementy:                   Testowanie funkcji koszyka
+Opis:                                 Przetestowanie strony pod kontem możliwości dodawania, usuwania produktów z koszyka.
+Wersja: 1
+
+
+1. 
+Cel testu:                            Dodanie produktu do koszyka - przypadek pozytywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Otwarcie podstrony dowolnego produktu 
+                                      4.  Kliknięcie przycisku "Add to cart"
+                                      5.  Kliknięcie przycisku "Continue shopping"
+                                      6.  Kliknięcie przycisku "Cart" 
+Oczekiwana wartość:                   Dodanie dowolnego produktu do koszyka
+Wartość testu:                        Produkt w koszyku. 
+Status/Ocena:                         Sukces
+
+2. 
+Cel testu:                            Dodanie produktu do koszyka - przypadek negatywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Otwarcie podstrony dowolnego produktu 
+                                      4.  Kliknięcie przycisku "Add to cart"
+                                      5.  Kliknięcie przycisku "Continue shopping"
+                                      6.  Kliknięcie przycisku "Cart" 
+Oczekiwana wartość:                   DProdukt nie zostanie dodany do koszyka
+Wartość testu:                        Produkt w koszyku. 
+Status/Ocena:                         Porażka
+
+3. 
+Cel testu:                            Usunięcie produktu z koszyka - przypadek pozytywny
+Stan początkowy:                      Zalogowany użytkownik, dowolny produkt w koszyku
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
+Oczekiwana wartość:                   Usunięcie dowolnego produktu z koszyka.
+Wartość testu:                        Produktzostał usunięty
+Status/Ocena:                         Sukces
+
+4. 
+Cel testu:                            Usunięcie produktu z koszyka - przypadek negatywny
+Stan początkowy:                      Zalogowany użytkownik, dowolny produkt w koszyku
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
+Oczekiwana wartość:                   Brak możliwości usunięcia produktu z koszyka
+Wartość testu:                        Produkt został usunięty
+Status/Ocena:                         Porażka
