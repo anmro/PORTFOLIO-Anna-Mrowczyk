@@ -63,3 +63,55 @@ Akcja:
 Oczekiwana wartość:                   Brak możliwości usunięcia produktu z koszyka
 Wartość testu:                        Produkt został usunięty
 Status/Ocena:                         Porażka
+
+5. 
+Cel testu:                            Zwiększenie ilości produktów w koszyku - przypadek pozytywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku "+"
+Oczekiwana wartość:                   Zwiększenie ilości produtu w koszyku o 1
+Wartość testu:                        Ilość produktu została zwiększona o 1.
+Status/Ocena:                         Sukces
+
+6. 
+Cel testu:                            Zwiększenie ilości produktów w koszyku - przypadek negatywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku "+"
+Oczekiwana wartość:                   Zwiększenie ilości produtu w koszyku o 1
+Wartość testu:                        Ilość produktu została zwiększona o 1.
+Status/Ocena:                         Porażka
+
+7. 
+Cel testu:                            Zmniejszenie ilości produktów w koszyku - przypadek pozytywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku "-"
+Oczekiwana wartość:                   Zmniejszenie ilości produtu w koszyku o 1
+Wartość testu:                        Ilość produktu została zmniejszona o 1.
+Status/Ocena:                         Sukces
+
+8. 
+Cel testu:                            Zmniejszenie ilości produktów w koszyku - przypadek negatywny
+Stan początkowy:                      Zalogowany użytkownik
+Akcja:                                
+                                      1.  Otwarcie strony http://automationpractice.com/index.php
+                                      2.  Zalogowanie się 
+                                      3.  Dodanie dowolnego produktu do koszyka
+                                      4.  Kliknięcie przycisku "Cart" 
+                                      5.  Kliknięcie przycisku "-"
+Oczekiwana wartość:                   Zmniejszenie ilości produtu w koszyku o 1
+Wartość testu:                        Ilość produktu została zmniejszona o 1.
+Status/Ocena:                         Porażka
