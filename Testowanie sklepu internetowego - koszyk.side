@@ -1,0 +1,312 @@
+{
+  "id": "0fec7c72-f81d-4bee-a323-43e386f98f76",
+  "version": "2.0",
+  "name": "Testowanie sklepu internetowego http://automationpractice.com/index.php",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "d8e532ad-c71a-4323-8461-cee413bda5b4",
+    "name": "Dodawanie produktu do koszyka",
+    "commands": [{
+      "id": "723af851-3a41-41ba-b877-bb317ccf7311",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77a5e49b-481f-42f2-884c-1913e32b9fd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d54257-beb9-4a3e-a7e9-aa3ebc9ae776",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Women')]",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?id_category=3&controller=category']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b702c0-4b14-4bd8-8230-f2ba7eac29de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_block_product:nth-child(1) .replace-2x",
+      "targets": [
+        ["css=.ajax_block_product:nth-child(1) .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Faded Short Sleeve T-shirts']", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "671cf503-9916-4d2d-b94e-d887e7ac81c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a53dc196-3748-497d-a4aa-0fc8d4bf1892",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cross",
+      "targets": [
+        ["css=.cross", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ffb778c-3e66-4b51-ad59-9230d1006404",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopping_cart > a",
+      "targets": [
+        ["css=.shopping_cart > a", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=order']", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fcf4094-daf2-419d-b06c-db351228aa42",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6124cd44-7913-4afc-8489-9f6750b34417",
+    "name": "Usuwanie produktu z koszyka",
+    "commands": [{
+      "id": "8c79cb5a-9231-4945-b35c-c8d58ac716ca",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88fa4a79-c352-4e26-80c2-a6a766854326",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "680b9aa4-92bb-4392-b8dc-0693dd33cb24",
+      "comment": "",
+      "command": "click",
+      "target": "css=b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd39fd7-cab5-4932-aa59-38279a97515b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-trash",
+      "targets": [
+        ["css=.icon-trash", "css:finder"],
+        ["xpath=//a[@id='1_1_0_426455']/i", "xpath:idRelative"],
+        ["xpath=//td[7]/div/a/i", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "04d00de2-8bbd-412d-9a95-38dbf9cc546e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bd9d9540-c6e1-4914-9867-73ceef67000f",
+    "name": "Zwiększanie / zmniejszanie produktów w koszyku",
+    "commands": [{
+      "id": "76deeff8-6e55-4e13-b86c-9dbb01102ea6",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45cc1498-e5d2-4a8e-8f81-4660c879c900",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f29847-279b-4726-86ff-9194f37729f2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Women')]",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?id_category=3&controller=category']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1225aa8-cbf3-4c10-8139-415068d175f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_block_product:nth-child(1) .replace-2x",
+      "targets": [
+        ["css=.ajax_block_product:nth-child(1) .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Faded Short Sleeve T-shirts']", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde36091-4da5-4c70-8b3b-31ae55ff9511",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dc9c0a-789a-4a74-a991-8a01e94f0bae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cross",
+      "targets": [
+        ["css=.cross", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e468ab41-e0ec-4068-a29d-e404d46fadd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > b",
+      "targets": [
+        ["css=a > b", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3902a2-10a5-423d-b1e1-111061124c6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-plus",
+      "targets": [
+        ["css=.icon-plus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_1_1_0_426455']/span/i", "xpath:idRelative"],
+        ["xpath=//a[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2370a493-09ab-4d46-8b96-8513b417fa0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-plus",
+      "targets": [
+        ["css=.icon-plus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_1_1_0_426455']/span/i", "xpath:idRelative"],
+        ["xpath=//a[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72fa94f3-a9de-412c-99a6-214abbb94eab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_quantity_up_1_1_0_426455 > span",
+      "targets": [
+        ["css=#cart_quantity_up_1_1_0_426455 > span", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_1_1_0_426455']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0da6dabd-ab15-4b43-b03c-7d320ec84c15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-minus",
+      "targets": [
+        ["css=.icon-minus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_down_1_1_0_426455']/span/i", "xpath:idRelative"],
+        ["xpath=//td[5]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e37790-9527-47a7-bfdb-5c57e6d278bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-minus",
+      "targets": [
+        ["css=.icon-minus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_down_1_1_0_426455']/span/i", "xpath:idRelative"],
+        ["xpath=//td[5]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea90255d-efa1-4776-8aa1-c4afb189339a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-minus",
+      "targets": [
+        ["css=.icon-minus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_down_1_1_0_426455']/span/i", "xpath:idRelative"],
+        ["xpath=//td[5]/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8921b468-2a50-423b-993d-b56d201c560a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_quantity_down_1_1_0_426455 > span",
+      "targets": [
+        ["css=#cart_quantity_down_1_1_0_426455 > span", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_down_1_1_0_426455']/span", "xpath:idRelative"],
+        ["xpath=//td[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd13173-af8b-4ff7-ab0f-42e3b9a76e05",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "60d97631-4d99-44bb-95ce-e64f26df4f82",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8e532ad-c71a-4323-8461-cee413bda5b4"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
