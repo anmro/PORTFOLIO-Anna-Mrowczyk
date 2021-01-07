@@ -1,0 +1,139 @@
+{
+  "id": "d22691a7-efbc-429c-a136-5e707a19f4fd",
+  "version": "2.0",
+  "name": "Testowanie sklepu internetowego http://automationpractice.com/index.php",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "659df26b-a686-495e-860f-41f3263192fa",
+    "name": "Logowanie",
+    "commands": [{
+      "id": "4d020fcd-71d1-4d31-ba1d-acaecab696c4",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d590002-dba6-410d-9dcf-0b33ddf9d370",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c5c53f0-c463-47fc-981a-6e77ca6fdb53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0d6c8b-93e6-4199-a046-38c09b2b1d9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b416b4a4-258d-44cf-bbd2-6e1aa3fce5d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "tester.a.mouse@gmail.com"
+    }, {
+      "id": "d9ac38d8-8038-4886-b8f1-5a531798af6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "149e0aaa-850c-458d-b5ce-a759dd8e98be",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "tester1"
+    }, {
+      "id": "c236c180-d9c0-44e3-ae29-8f5e298b352e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25135ee5-9a8f-4470-95c8-ba531be87dd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?mylogout=']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc65c3a1-bd02-445e-828e-d1a141fa3fd2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7e776cda-ba98-4044-aa63-58f6395a9854",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["659df26b-a686-495e-860f-41f3263192fa"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
