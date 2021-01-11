@@ -6,6 +6,7 @@ W swoim repozytorium chciałam przedstawić moje umiejętności testerskie przed
 3. Scenariusz testowy - filtr
 4. Scenariusz testowy - koszyk
 5. Zgłoszenie błędów na podstawie scenariusza testowego - filtr.
+
 W dalszej kolejności przeszłam do testowania automatycznego i regresji, gdzie za pomocą programu Selenium IDE nagrałam prosty test logowania oraz testy grupowe dla scenariusza testowego - koszyk.
 Dodatkowo dokonałam zgłoszenia błędu w języku angielskim (dostyczy on aplikacji mobilnej innego sklepu internetowego). 
 
