@@ -1,4 +1,4 @@
-Firma:                                testerzy.com
+Firma:                                mouse.testerzy.com
 Formularz aplikacji testów            
 Nr dokumentu:                         1
 Nazwa projektu:                       Testowanie sklepu internetowego 
@@ -6,7 +6,7 @@ Zadanie:                              Przetestowanie strony internetowej o adres
 Osoby wykonujące testy:               Tomasz Kwiatek 
 
 Testowane elementy:                   Testowanie funkcji filtrowania produktów
-Opis:                                 Przetestowanie strony pod kontem możliwości filtrowania produktów po kolorze, rozmiarze, cenie
+Opis:                                 Przetestowanie strony pod kątem możliwości filtrowania produktów po kolorze, rozmiarze i cenie.
 Wersja: 1
 
 
@@ -26,7 +26,7 @@ Stan początkowy:                      Strona główna http://automationpractice
 Akcja:                                
                                       1. Wybór katerogii "Women"
                                       2. Wybór koloru "Black"
-Oczekiwana wartość:                   Wyświetlenie produktów w równych kolorach
+Oczekiwana wartość:                   Wyświetlenie produktów w różnych kolorach
 Wartość testu:                        Zamrożenie strony
 Status/Ocena:                         Porażka
 
@@ -67,6 +67,6 @@ Stan początkowy:                      Strona główna http://automationpractice
 Akcja:                                
                                       1. Wybór katerogii "Women"
                                       2. Wybór ceny z przedziału $16 - $29.69
-Oczekiwana wartość:                   Wyświetlenie produktów w cenach również spoza przedziału cenowego
+Oczekiwana wartość:                   Wyświetlenie produktów w cenach również spoza wybranego przedziału cenowego
 Wartość testu:                        Zamrożenie strony
 Status/Ocena:                         Porażka
