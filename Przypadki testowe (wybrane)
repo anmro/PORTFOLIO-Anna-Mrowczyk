@@ -1,30 +1,31 @@
 ID 1.1
 Tytuł: Zakładanie konta
 Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail.
 Kroki reprodukcji: 
   1. Otwarcie strony http://automationpractice.com/index.php
   2. Kilknięcie przycisku "Sing in"
-  3. Wprowadzenie danych: tester.a.mouse@gmail.com"
+  3. Wprowadzenie danych: tester.a.mouse@gmail.com
   4. Kliknięcie przycisku "Create an Account"
-  5. Wprowadzenie danych:first name, last name, password, address, city, state, zip/postal code, country, mobile phone, 
+  5. Wprowadzenie danych: first name, last name, password, address, city, state, zip/postal code, country, mobile phone, 
   6. Kliknięcie przycisku "Register"
-Oczekiwany rezultat: Utworzenie konta
+Oczekiwany rezultat: Utworzenie konta.
 Dane testowe:  email address: tester.a.mouse@gmail.com
 Autor: Anna Mrowczyk
 
 
 ID 1.2 
 Tytuł: Poprawne logowanie do konta
-Środowisko: 
+Środowisko: Android 8 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Niezalogowany użytkownik, posiadający aktywne konto
 Kroki reprodukcji: 
   1. Otwarcie strony http://automationpractice.com/index.php
   2. Kilknięcie przycisku "Sing in"
-  3. Wprowadz adres e-mail
-  2. Wprowadzenie hasło
+  3. Wprowadzenie adresu e-mail
+  2. Wprowadzenie hasła
   3. Kliknięcie przycisku "Sing in"
 Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
 Dane testowe:  
@@ -35,7 +36,7 @@ Autor: Anna Mrowczyk
 
 ID 1.3
 Tytuł: Odzyskiwanie hasła
-Środowisko: 
+Środowisko: Android 8 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Niezalogowany użytkownik
 Kroki reprodukcji: 
@@ -44,9 +45,9 @@ Kroki reprodukcji:
   3. Kliknięcie przycisku "Forgot your password"
   4. Wprowadzenie adresu e-mail
   5. Kliknięcie przycisku "Retrive password"
-  6. Otwarcie skrzynku email
+  6. Otwarcie skrzynk e-mail
   7. Kliknięcie linku do zmiany hasła
-Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
+Oczekiwany rezultat: Wprowadzenie nowego hasła i zalogowanie się na nie.
 Dane testowe:  
     email address : tester.a.mouse@gmail.com   
 Autor: Anna Mrowczyk
@@ -54,16 +55,15 @@ Autor: Anna Mrowczyk
 
 ID 2.1
 Tytuł: Dodanie produktu do koszyka
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Zalogowany użytkownik
 Kroki reprodukcji: 
   1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Zalogowanie się 
-  3.  Otwarcie podstrony dowolnego produktu 
-  4.  Kliknięcie przycisku "Add to cart"
-  5.  Kliknięcie przycisku "Continue shopping"
-  6.  Kliknięcie przycisku "Cart" 
+  2.  Otwarcie podstrony dowolnego produktu 
+  3.  Kliknięcie przycisku "Add to cart"
+  4.  Kliknięcie przycisku "Continue shopping"
+  5.  Kliknięcie przycisku "Cart" 
 Oczekiwany rezultat: Dodanie dowolnego produktu do koszyka
 Dane testowe:  
     email address : tester.a.mouse@gmail.com   
@@ -73,7 +73,7 @@ Autor: Anna Mrowczyk
 
 ID 2.2
 Tytuł: Usunięcie produktu z koszyka
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Zalogowany użytkownik, dowolny produkt w koszyku
 Kroki reprodukcji: 
@@ -89,22 +89,21 @@ Autor: Anna Mrowczyk
 
 ID 2.3
 Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Zalogowany użytkownik
 Kroki reprodukcji: 
   1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Zalogowanie się 
-  3.  Otwarcie podstrony dowolnego produktu 
-  4.  Kliknięcie przycisku "Add to cart"
-  5.  Kliknięcie przycisku "Proceed to checkout"
+  2.  Otwarcie podstrony dowolnego produktu 
+  3.  Kliknięcie przycisku "Add to cart"
+  4.  Kliknięcie przycisku "Proceed to checkout"
+  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
   6.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  7.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  8.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
-  9.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  10. Kliknięcie przycisku "Pay by bank wire"
-  11. Kliknięcie przycisku "I confirme my order"
-Oczekiwany rezultat:Zakup dowolnego produktu i dodanie go do historii zamówień. 
+  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  9.  Kliknięcie przycisku "Pay by bank wire"
+  10. Kliknięcie przycisku "I confirme my order"
+Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
 Dane testowe:  
     email address : tester.a.mouse@gmail.com   
     hasło: tester1
@@ -113,22 +112,21 @@ Autor: Anna Mrowczyk
 
 ID 2.4
 Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Zalogowany użytkownik
 Kroki reprodukcji: 
   1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Zalogowanie się 
-  3.  Otwarcie podstrony dowolnego produktu 
-  4.  Kliknięcie przycisku "Add to cart"
-  5.  Kliknięcie przycisku "Proceed to checkout"
+  2.  Otwarcie podstrony dowolnego produktu 
+  3.  Kliknięcie przycisku "Add to cart"
+  4.  Kliknięcie przycisku "Proceed to checkout"
+  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
   6.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  7.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  8.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
-  9.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  10. Kliknięcie przycisku "Pay by check"
-  11. Kliknięcie przycisku "I confirme my order"
-Oczekiwany rezultat:Zakup dowolnego produktu i dodanie go do historii zamówień. 
+  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
+  9.  Kliknięcie przycisku "Pay by check"
+  10. Kliknięcie przycisku "I confirme my order"
+Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
 Dane testowe:  
     email address : tester.a.mouse@gmail.com   
     hasło: tester1
@@ -136,15 +134,14 @@ Autor: Anna Mrowczyk
 
 ID. 2.5
 Tytuł: Dodanie dowolnego produktu do listy ulubionych
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: Zalogowany użytkownik
 Kroki reprodukcji: 
   1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Zalogowanie się 
-  3.  Otwarcie podstrony dowolnego produktu 
-  4.  Kliknięcie przycisku "Add to wishlist"
-  5.  Kliknięcie przysku zamknięcia komunikatu "x"
+  2.  Otwarcie podstrony dowolnego produktu 
+  3.  Kliknięcie przycisku "Add to wishlist"
+  4.  Kliknięcie przycisku zamknięcia komunikatu "x"
 Oczekiwany rezultat: Dodanie dowolnego produktu do listy ulubionych.
 Dane testowe:  
     email address : tester.a.mouse@gmail.com   
@@ -153,20 +150,20 @@ Autor: Anna Mrowczyk
 
 ID. 2.6
 Tytuł: Filtrowanie produktów po kolorze
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: brak
 Kroki reprodukcji: 
   1.  Otwarcie strony http://automationpractice.com/index.php
   2.  Wybór katerogii "Women"
   3.  Wybór koloru "Black"
-Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym
+Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym.
 Dane testowe: brak
 Autor: Anna Mrowczyk
 
 ID. 2.7
 Tytuł: Filtorwanie produktów po rozmiarze
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: brak
 Kroki reprodukcji: 
@@ -180,7 +177,7 @@ Autor: Anna Mrowczyk
 
 ID. 2.8
 Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
-Środowisko: 
+Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
 Warunki wstępne: brak
 Kroki reprodukcji: 
@@ -188,7 +185,7 @@ Kroki reprodukcji:
   2.  Wybór katerogii "Women"
   3.  Kliknięcie przycisku "Sort by"
   4.  Wybór i kliknięcie "Price: Lowest first"
-Oczekiwany rezultat: Wyświetlenie produktów uporządkowanych od najwyższej do najniższej ceny
+Oczekiwany rezultat: Wyświetlenie produktów uporządkowanych od najwyższej do najniższej ceny.
 Dane testowe: brak
 Autor: Anna Mrowczyk
 
@@ -202,19 +199,5 @@ Kroki reprodukcji:
   1.  Otwarcie strony http://automationpractice.com/index.php
   2.  Wpisanie w wyszukiwarkę: "yellow"
 Oczekiwany rezultat: Wyświetlenie produktów ze słowiem "yellow" w nazwie
-Dane testowe: brak
-Autor: Anna Mrowczyk
-
-
-ID. 3.1.
-Tytuł: Sprawdzenie działania linków w stopce
-Środowisko: 
-Wersja: 1.0
-Warunki wstępne: brak
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Przewinięcie do dołu strony
-  3.  Sprawdzenie każdego elementu stopki pod kontem poprawności ładowania podstrony
-Oczekiwany rezultat: Poprawne wyświetlenie wszytskich podstron, do których linki zostały umieszczone w stopce.
 Dane testowe: brak
 Autor: Anna Mrowczyk
