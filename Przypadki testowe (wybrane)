@@ -87,7 +87,7 @@ Dane testowe:
 Autor: Anna Mrowczyk
 
 
-ID 2.3
+ID 3.1
 Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -110,7 +110,7 @@ Dane testowe:
 Autor: Anna Mrowczyk
 
 
-ID 2.4
+ID 3.2
 Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -132,7 +132,7 @@ Dane testowe:
     hasło: tester1
 Autor: Anna Mrowczyk
 
-ID. 2.5
+ID. 4.1
 Tytuł: Dodanie dowolnego produktu do listy ulubionych
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -148,7 +148,7 @@ Dane testowe:
     hasło: tester1
 Autor: Anna Mrowczyk
 
-ID. 2.6
+ID. 5.1
 Tytuł: Filtrowanie produktów po kolorze
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -161,7 +161,7 @@ Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym.
 Dane testowe: brak
 Autor: Anna Mrowczyk
 
-ID. 2.7
+ID. 5.2
 Tytuł: Filtorwanie produktów po rozmiarze
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -175,7 +175,7 @@ Dane testowe: brak
 Autor: Anna Mrowczyk
 
 
-ID. 2.8
+ID. 5.3
 Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
 Środowisko: Desktop - Windows 7 i wyższy (Chrome)
 Wersja: 1.0
@@ -190,7 +190,7 @@ Dane testowe: brak
 Autor: Anna Mrowczyk
 
 
-ID. 2.9
+ID. 6.1
 Tytuł: Wyszukiwanie produktów
 Środowisko: 
 Wersja: 1.0
