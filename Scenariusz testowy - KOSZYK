@@ -1,4 +1,4 @@
-Firma:                                testerzy.com
+Firma:                                mouse.testerzy.com
 Formularz aplikacji testów            
 Nr dokumentu:                         1
 Nazwa projektu:                       Testowanie sklepu internetowego 
@@ -6,7 +6,7 @@ Zadanie:                              Przetestowanie strony internetowej o adres
 Osoby wykonujące testy:               Tomasz Kwiatek 
 
 Testowane elementy:                   Testowanie funkcji koszyka
-Opis:                                 Przetestowanie strony pod kontem możliwości dodawania, usuwania produktów z koszyka.
+Opis:                                 Przetestowanie strony pod kątem możliwości dodawania i usuwania produktów z koszyka.
 Wersja: 1
 
 
@@ -15,13 +15,12 @@ Cel testu:                            Dodanie produktu do koszyka - przypadek po
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Otwarcie podstrony dowolnego produktu 
-                                      4.  Kliknięcie przycisku "Add to cart"
-                                      5.  Kliknięcie przycisku "Continue shopping"
-                                      6.  Kliknięcie przycisku "Cart" 
+                                      2.  Otwarcie podstrony dowolnego produktu 
+                                      3.  Kliknięcie przycisku "Add to cart"
+                                      4.  Kliknięcie przycisku "Continue shopping"
+                                      5.  Kliknięcie przycisku "Cart" 
 Oczekiwana wartość:                   Dodanie dowolnego produktu do koszyka
-Wartość testu:                        Produkt w koszyku. 
+Wartość testu:                        Produkt w koszyku
 Status/Ocena:                         Sukces
 
 2. 
@@ -29,13 +28,12 @@ Cel testu:                            Dodanie produktu do koszyka - przypadek ne
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Otwarcie podstrony dowolnego produktu 
-                                      4.  Kliknięcie przycisku "Add to cart"
-                                      5.  Kliknięcie przycisku "Continue shopping"
-                                      6.  Kliknięcie przycisku "Cart" 
-Oczekiwana wartość:                   DProdukt nie zostanie dodany do koszyka
-Wartość testu:                        Produkt w koszyku. 
+                                      2.  Otwarcie podstrony dowolnego produktu 
+                                      3.  Kliknięcie przycisku "Add to cart"
+                                      4.  Kliknięcie przycisku "Continue shopping"
+                                      5.  Kliknięcie przycisku "Cart" 
+Oczekiwana wartość:                   Produkt nie zostanie dodany do koszyka
+Wartość testu:                        Produkt w koszyku
 Status/Ocena:                         Porażka
 
 3. 
@@ -43,12 +41,10 @@ Cel testu:                            Usunięcie produktu z koszyka - przypadek 
 Stan początkowy:                      Zalogowany użytkownik, dowolny produkt w koszyku
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
-Oczekiwana wartość:                   Usunięcie dowolnego produktu z koszyka.
-Wartość testu:                        Produktzostał usunięty
+                                      2.  Kliknięcie przycisku "Cart" 
+                                      3.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
+Oczekiwana wartość:                   Usunięcie dowolnego produktu z koszyka
+Wartość testu:                        Produkt został usunięty
 Status/Ocena:                         Sukces
 
 4. 
@@ -56,10 +52,8 @@ Cel testu:                            Usunięcie produktu z koszyka - przypadek 
 Stan początkowy:                      Zalogowany użytkownik, dowolny produkt w koszyku
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
+                                      2.  Kliknięcie przycisku "Cart" 
+                                      3.  Kliknięcie przycisku Delete (ikonka kosz na śmieci) 
 Oczekiwana wartość:                   Brak możliwości usunięcia produktu z koszyka
 Wartość testu:                        Produkt został usunięty
 Status/Ocena:                         Porażka
@@ -69,12 +63,11 @@ Cel testu:                            Zwiększenie ilości produktów w koszyku 
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku "+"
-Oczekiwana wartość:                   Zwiększenie ilości produtu w koszyku o 1
-Wartość testu:                        Ilość produktu została zwiększona o 1.
+                                      2.  Dodanie dowolnego produktu do koszyka
+                                      3.  Kliknięcie przycisku "Cart" 
+                                      4.  Kliknięcie przycisku "+"
+Oczekiwana wartość:                   Zwiększenie ilości produktu w koszyku o 1
+Wartość testu:                        Ilość produktu została zwiększona o 1
 Status/Ocena:                         Sukces
 
 6. 
@@ -82,12 +75,11 @@ Cel testu:                            Zwiększenie ilości produktów w koszyku 
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku "+"
-Oczekiwana wartość:                   Zwiększenie ilości produtu w koszyku o 1
-Wartość testu:                        Ilość produktu została zwiększona o 1.
+                                      2.  Dodanie dowolnego produktu do koszyka
+                                      3.  Kliknięcie przycisku "Cart" 
+                                      4.  Kliknięcie przycisku "+"
+Oczekiwana wartość:                   Zwiększenie ilości produktu w koszyku o 1
+Wartość testu:                        Ilość produktu została zwiększona o 1
 Status/Ocena:                         Porażka
 
 7. 
@@ -95,12 +87,11 @@ Cel testu:                            Zmniejszenie ilości produktów w koszyku 
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku "-"
-Oczekiwana wartość:                   Zmniejszenie ilości produtu w koszyku o 1
-Wartość testu:                        Ilość produktu została zmniejszona o 1.
+                                      2.  Dodanie dowolnego produktu do koszyka
+                                      3.  Kliknięcie przycisku "Cart" 
+                                      4.  Kliknięcie przycisku "-"
+Oczekiwana wartość:                   Zmniejszenie ilości produktu w koszyku o 1
+Wartość testu:                        Ilość produktu została zmniejszona o 1
 Status/Ocena:                         Sukces
 
 8. 
@@ -108,10 +99,9 @@ Cel testu:                            Zmniejszenie ilości produktów w koszyku 
 Stan początkowy:                      Zalogowany użytkownik
 Akcja:                                
                                       1.  Otwarcie strony http://automationpractice.com/index.php
-                                      2.  Zalogowanie się 
-                                      3.  Dodanie dowolnego produktu do koszyka
-                                      4.  Kliknięcie przycisku "Cart" 
-                                      5.  Kliknięcie przycisku "-"
-Oczekiwana wartość:                   Zmniejszenie ilości produtu w koszyku o 1
-Wartość testu:                        Ilość produktu została zmniejszona o 1.
+                                      2.  Dodanie dowolnego produktu do koszyka
+                                      3.  Kliknięcie przycisku "Cart" 
+                                      4.  Kliknięcie przycisku "-"
+Oczekiwana wartość:                   Zmniejszenie ilości produktu w koszyku o 1
+Wartość testu:                        Ilość produktu została zmniejszona o 1
 Status/Ocena:                         Porażka
