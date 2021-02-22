@@ -1,203 +1,290 @@
-ID 1.1
-Tytuł: Zakładanie konta
-Środowisko: 
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail.
-Kroki reprodukcji: 
-  1. Otwarcie strony http://automationpractice.com/index.php
-  2. Kilknięcie przycisku "Sing in"
-  3. Wprowadzenie danych: tester.a.mouse@gmail.com
-  4. Kliknięcie przycisku "Create an Account"
-  5. Wprowadzenie danych: first name, last name, password, address, city, state, zip/postal code, country, mobile phone, 
-  6. Kliknięcie przycisku "Register"
-Oczekiwany rezultat: Utworzenie konta.
-Dane testowe:  email address: tester.a.mouse@gmail.com
-Autor: Anna Mrowczyk
-
-
-ID 1.2 
-Tytuł: Poprawne logowanie do konta
-Środowisko: Android 8 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Niezalogowany użytkownik, posiadający aktywne konto
-Kroki reprodukcji: 
-  1. Otwarcie strony http://automationpractice.com/index.php
-  2. Kilknięcie przycisku "Sing in"
-  3. Wprowadzenie adresu e-mail
-  2. Wprowadzenie hasła
-  3. Kliknięcie przycisku "Sing in"
-Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    password: tester1
-Autor: Anna Mrowczyk
-
-
-ID 1.3
-Tytuł: Odzyskiwanie hasła
-Środowisko: Android 8 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Niezalogowany użytkownik
-Kroki reprodukcji: 
-  1. Otwarcie strony http://automationpractice.com/index.php
-  2. Kilknięcie przycisku "Sing in"
-  3. Kliknięcie przycisku "Forgot your password"
-  4. Wprowadzenie adresu e-mail
-  5. Kliknięcie przycisku "Retrive password"
-  6. Otwarcie skrzynk e-mail
-  7. Kliknięcie linku do zmiany hasła
-Oczekiwany rezultat: Wprowadzenie nowego hasła i zalogowanie się na nie.
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-Autor: Anna Mrowczyk
-
-
-ID 2.1
-Tytuł: Dodanie produktu do koszyka
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Otwarcie podstrony dowolnego produktu 
-  3.  Kliknięcie przycisku "Add to cart"
-  4.  Kliknięcie przycisku "Continue shopping"
-  5.  Kliknięcie przycisku "Cart" 
-Oczekiwany rezultat: Dodanie dowolnego produktu do koszyka
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    hasło: tester1
-Autor: Anna Mrowczyk
-
-
-ID 2.2
-Tytuł: Usunięcie produktu z koszyka
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik, dowolny produkt w koszyku
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Kliknięcie przycisku "Cart" 
-  3.  Kliknięcie przycisku Delete (ikonka kosz na śmieci)
-Oczekiwany rezultat: Usunięcie dowolnego produktu z koszyka
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    hasło: tester1
-Autor: Anna Mrowczyk
-
-
-ID 3.1
-Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Otwarcie podstrony dowolnego produktu 
-  3.  Kliknięcie przycisku "Add to cart"
-  4.  Kliknięcie przycisku "Proceed to checkout"
-  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
-  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  9.  Kliknięcie przycisku "Pay by bank wire"
-  10. Kliknięcie przycisku "I confirme my order"
-Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    hasło: tester1
-Autor: Anna Mrowczyk
-
-
-ID 3.2
-Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Otwarcie podstrony dowolnego produktu 
-  3.  Kliknięcie przycisku "Add to cart"
-  4.  Kliknięcie przycisku "Proceed to checkout"
-  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
-  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
-  9.  Kliknięcie przycisku "Pay by check"
-  10. Kliknięcie przycisku "I confirme my order"
-Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    hasło: tester1
-Autor: Anna Mrowczyk
-
-ID. 4.1
-Tytuł: Dodanie dowolnego produktu do listy ulubionych
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: Zalogowany użytkownik
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Otwarcie podstrony dowolnego produktu 
-  3.  Kliknięcie przycisku "Add to wishlist"
-  4.  Kliknięcie przycisku zamknięcia komunikatu "x"
-Oczekiwany rezultat: Dodanie dowolnego produktu do listy ulubionych.
-Dane testowe:  
-    email address : tester.a.mouse@gmail.com   
-    hasło: tester1
-Autor: Anna Mrowczyk
-
-ID. 5.1
-Tytuł: Filtrowanie produktów po kolorze
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: brak
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Wybór katerogii "Women"
-  3.  Wybór koloru "Black"
-Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym.
-Dane testowe: brak
-Autor: Anna Mrowczyk
-
-ID. 5.2
-Tytuł: Filtorwanie produktów po rozmiarze
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: brak
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Wybór katerogii "Women"
-  3.  Wybór rozmiaru: "L"
-Oczekiwany rezultat: Wyświetlenie produktów jedynie w rozmiarze L.
-Dane testowe: brak
-Autor: Anna Mrowczyk
-
-
-ID. 5.3
-Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
-Środowisko: Desktop - Windows 7 i wyższy (Chrome)
-Wersja: 1.0
-Warunki wstępne: brak
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Wybór katerogii "Women"
-  3.  Kliknięcie przycisku "Sort by"
-  4.  Wybór i kliknięcie "Price: Lowest first"
-Oczekiwany rezultat: Wyświetlenie produktów uporządkowanych od najwyższej do najniższej ceny.
-Dane testowe: brak
-Autor: Anna Mrowczyk
-
-
-ID. 6.1
-Tytuł: Wyszukiwanie produktów
-Środowisko: 
-Wersja: 1.0
-Warunki wstępne: brak
-Kroki reprodukcji: 
-  1.  Otwarcie strony http://automationpractice.com/index.php
-  2.  Wpisanie w wyszukiwarkę: "yellow"
-Oczekiwany rezultat: Wyświetlenie produktów ze słowiem "yellow" w nazwie
-Dane testowe: brak
-Autor: Anna Mrowczyk
+  ID 1.1
+	Tytuł: Zakładanie konta
+	Środowisko: 
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail.
+	Kroki reprodukcji: 
+	  1. Otwarcie strony http://automationpractice.com/index.php
+	  2. Kliknięcie przycisku "Sing in"
+	  3. Wprowadzenie danych: tester.a.mouse@gmail.com
+	  4. Kliknięcie przycisku "Create an Account"
+	  5. Wprowadzenie danych: first name, last name, password, address, city, state, zip/postal code, country, mobile phone, 
+	  6. Kliknięcie przycisku "Register"
+	Oczekiwany rezultat: Utworzenie konta.
+	Dane testowe:  email address: tester.a.mouse@gmail.com
+	Autor: Anna Mrowczyk
+	
+	
+	ID 1.2 
+	Tytuł: Poprawne logowanie do konta
+	Środowisko: Android 8 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Niezalogowany użytkownik, posiadający aktywne konto
+	Kroki reprodukcji: 
+	  1. Otwarcie strony http://automationpractice.com/index.php
+	  2. Kliknięcie przycisku "Sing in"
+	  3. Wprowadzenie adresu e-mail
+	  2. Wprowadzenie hasła
+	  3. Kliknięcie przycisku "Sing in"
+	Oczekiwany rezultat: Zalogowanie się do aplikacji jako użytkownik.
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    password: tester1
+	Autor: Anna Mrowczyk
+	
+	
+	ID 1.3
+	Tytuł: Odzyskiwanie hasła
+	Środowisko: Android 8 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Niezalogowany użytkownik
+	Kroki reprodukcji: 
+	  1. Otwarcie strony http://automationpractice.com/index.php
+	  2. Kliknięcie przycisku "Sing in"
+	  3. Kliknięcie przycisku "Forgot your password"
+	  4. Wprowadzenie adresu e-mail
+	  5. Kliknięcie przycisku "Retrive password"
+	  6. Otwarcie skrzynki e-mail
+	  7. Kliknięcie linku do zmiany hasła
+	Oczekiwany rezultat: Wprowadzenie nowego hasła i zalogowanie się na nie.
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	Autor: Anna Mrowczyk
+	
+	
+	ID 2.1
+	Tytuł: Dodanie produktu do koszyka
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Zalogowany użytkownik
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Otwarcie podstrony dowolnego produktu 
+	  3.  Kliknięcie przycisku "Add to cart"
+	  4.  Kliknięcie przycisku "Continue shopping"
+	  5.  Kliknięcie przycisku "Cart" 
+	Oczekiwany rezultat: Dodanie dowolnego produktu do koszyka
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    hasło: tester1
+	Autor: Anna Mrowczyk
+	
+	
+	ID 2.2
+	Tytuł: Usunięcie produktu z koszyka
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Zalogowany użytkownik, dowolny produkt w koszyku
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Kliknięcie przycisku "Cart" 
+	  3.  Kliknięcie przycisku Delete (ikonka kosz na śmieci)
+	Oczekiwany rezultat: Usunięcie dowolnego produktu z koszyka
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    hasło: tester1
+	Autor: Anna Mrowczyk
+	
+	
+	ID 3.1
+	Tytuł: Zakup dowolnego produktu i dokonanie opłaty przelewem bankowym 
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Zalogowany użytkownik
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Otwarcie podstrony dowolnego produktu 
+	  3.  Kliknięcie przycisku "Add to cart"
+	  4.  Kliknięcie przycisku "Proceed to checkout"
+	  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+	  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  9.  Kliknięcie przycisku "Pay by bank wire"
+	  10. Kliknięcie przycisku "I confirme my order"
+	Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    hasło: tester1
+	Autor: Anna Mrowczyk
+	
+	
+	ID 3.2
+	Tytuł: Zakup dowolnego produktu i dokonanie płatności czekiem
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Zalogowany użytkownik
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Otwarcie podstrony dowolnego produktu 
+	  3.  Kliknięcie przycisku "Add to cart"
+	  4.  Kliknięcie przycisku "Proceed to checkout"
+	  5.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  6.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  7.  Kliknięcie zgody "I agree to the terms of service and will adhere to them unconditionally"
+	  8.  Ponowne kliknięcie przycisku "Proceed to checkout"
+	  9.  Kliknięcie przycisku "Pay by check"
+	  10. Kliknięcie przycisku "I confirme my order"
+	Oczekiwany rezultat: Zakup dowolnego produktu i dodanie go do historii zamówień. 
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    hasło: tester1
+	Autor: Anna Mrowczyk
+	
+	ID. 4.1
+	Tytuł: Dodanie dowolnego produktu do listy ulubionych
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Zalogowany użytkownik
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Otwarcie podstrony dowolnego produktu 
+	  3.  Kliknięcie przycisku "Add to wishlist"
+	  4.  Kliknięcie przycisku zamknięcia komunikatu "x"
+	Oczekiwany rezultat: Dodanie dowolnego produktu do listy ulubionych.
+	Dane testowe:  
+	    email address : tester.a.mouse@gmail.com   
+	    hasło: tester1
+	Autor: Anna Mrowczyk
+	
+	ID. 5.1
+	Tytuł: Filtrowanie produktów po kolorze
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: brak
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Wybór kategorii "Women"
+	  3.  Wybór koloru "Black"
+	Oczekiwany rezultat: Wyświetlenie produktów jedynie w kolorze czarnym.
+	Dane testowe: brak
+	Autor: Anna Mrowczyk
+	
+	ID. 5.2
+	Tytuł: Filtrowanie produktów po rozmiarze
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: brak
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Wybór kategorii "Women"
+	  3.  Wybór rozmiaru: "L"
+	Oczekiwany rezultat: Wyświetlenie produktów jedynie w rozmiarze L.
+	Dane testowe: brak
+	Autor: Anna Mrowczyk
+	
+	
+	ID. 5.3
+	Tytuł: Sortowanie produktów po cenie od najwyższej do najniższej
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: brak
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Wybór kategorii "Women"
+	  3.  Kliknięcie przycisku "Sort by"
+	  4.  Wybór i kliknięcie "Price: Lowest first"
+	Oczekiwany rezultat: Wyświetlenie produktów uporządkowanych od najwyższej do najniższej ceny.
+	Dane testowe: brak
+	Autor: Anna Mrowczyk
+	
+	
+	ID. 6.1
+	Tytuł: Wyszukiwanie produktów
+	Środowisko: 
+	Wersja: 1.0
+	Warunki wstępne: brak
+	Kroki reprodukcji: 
+	  1.  Otwarcie strony http://automationpractice.com/index.php
+	  2.  Wpisanie w wyszukiwarkę: "yellow"
+	Oczekiwany rezultat: Wyświetlenie produktów ze słowem "yellow" w nazwie
+	Dane testowe: brak
+	Autor: Anna Mrowczyk
+Nazwa projektu: Testowanie sklepu internetowego 
+	Imię i nazwisko autora: Anna Mrowczyk
+	Wersja: 1.0
+	
+	I. WSTĘP
+	Projekt polega na przetestowaniu strony internetowej o adresie: http://automationpractice.com/index.php
+	Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego klienta o dokonaniu zakupu w sklepie internetowym.
+	Materiały, które dostarczy testowanie przekazane zostaną deweloperów celem wprowadzenia poprawek. W drugiej kolejności przeprowadzone zostaną testy regresyjne. 
+	
+	II. OPIS
+	
+	1. Obiekt
+	http://automationpractice.com/index.php
+	
+	2. Lista rzeczy do przetestowania
+	- zakładanie konta,
+	- logowanie do konta,
+	- odzyskiwanie hasła,
+	- dodawanie produktu do koszyka,
+	- zakup,
+	- dodawanie produktu do listy ulubionych,
+	- sortowanie i filtrowanie produktów,
+	- wyszukiwanie produktów.
+	
+	3. Lista rzeczy których nie należy testować
+	- wszystko co znajduje się w stopce strony,
+	- zabezpieczenia,
+	- kod źródłowy.
+	
+	4. Wymagania systemowe
+	OS
+	  - Windows 7 i wyższy
+	  - Android 8 i wyższy
+	Przeglądarka
+	  - Chrome
+	  - Firefox
+	
+	5. System śledzenia błędów
+	Błędy należy zgłaszać poprzez Issues. 
+	Tytuł powinien zostać skonstruowany jak poniżej:
+	[Urządzenie(Przeglądarka)][Obszar] - Opis błędu
+	Przykład: 
+	        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto używając na e-mail dla którego już istnieje konto
+	        
+	III. Zarządzanie projektem testerskim
+	
+	1. Zespół i zadania
+	Maria Kowalska - tester,
+	Tomasz Kwiatek - tester,
+	Anna Mrowczyk - tester,
+	Mariusz Noga - deweloper,
+	Katarzyna Kwik - lider projektu.
+	
+	2. Harmonogram testów
+	Rozpoczęcie testów 04.01.2021
+	Zakończenie testów 15.01.2021
+	Prace deweloperskie 18-29.01.2021
+	Testy regresyjne 1-5.02.2021
+	
+	3. Środowisko testów
+	Windows 7 (Chrome)
+	Windows 10 (Firefox)
+	Android 9.0 (Chrome)
+	
+	4. Narzędzia testowe
+	- program do robienia zrzutów ekranu,
+	- program do nagrywania działań na ekranie,
+	- githube.com,
+	- Selenium IDE.
+	
+	5. Kryteria zakończenia testów
+	Termin zakończenia 15.01.2021 lub osiągnięcie limitu błędów - 100.  
+	
+	6. Defekty
+	Rodzaje defektów: funkcjonalne, wizualne, kontekstowe, wydajnościowe.
+	
+	Ważność: 
+	      krytyczny (brak możliwości korzystania ze strony),
+	      wysoki (znaczne utrudnione korzystanie ze strony),
+	      średni (niewielki utrudnione korzystanie ze strony),
+	      niski (kosmetyczne błędy).
+	      
+	7. Śledzenie statusu błędów i raportowanie
+	Raportowanie błędów odbywać się będzie na platformie https://github.com/anmro/Anna-Mrowczyk/issues,
+	
+	8. Ryzyko
+	Potencjalna zbyt duża ilość błędów i za krótki czas na ich zgłoszenie. W dalszej kolejności mało czasu na naprawę defektów. 
