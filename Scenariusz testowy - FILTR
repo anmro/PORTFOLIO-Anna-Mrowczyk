@@ -14,7 +14,7 @@ Wersja: 1
 Cel testu:                            Filtrowanie produktów po kolorze - przypadek pozytywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór koloru "Black"
 Oczekiwana wartość:                   Wyświetlenie produktów jedynie w kolorze czarnym
 Wartość testu:                        Zamrożenie strony
@@ -24,7 +24,7 @@ Status/Ocena:                         Porażka
 Cel testu:                            Filtrowanie produktów po kolorze - przypadek negatywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór koloru "Black"
 Oczekiwana wartość:                   Wyświetlenie produktów w różnych kolorach
 Wartość testu:                        Zamrożenie strony
@@ -34,7 +34,7 @@ Status/Ocena:                         Porażka
 Cel testu:                            Filtrowanie produktów po rozmiarze - przypadek pozytywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór koloru "L"
 Oczekiwana wartość:                   Wyświetlenie produktów jedynie w rozmiarze L
 Wartość testu:                        Zamrożenie strony
@@ -45,7 +45,7 @@ Status/Ocena:                         Porażka
 Cel testu:                            Filtrowanie produktów po rozmiarze - przypadek negatywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór koloru "L"
 Oczekiwana wartość:                   Wyświetlenie produktów w różnych rozmiarach
 Wartość testu:                        Zamrożenie strony
@@ -55,7 +55,7 @@ Status/Ocena:                         Porażka
 Cel testu:                            Filtrowanie produktów po cenie - przypadek pozytywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór ceny z przedziału $16 - $29.69
 Oczekiwana wartość:                   Wyświetlenie produktów we wskazanym przedziale cenowym
 Wartość testu:                        Zamrożenie strony
@@ -65,7 +65,7 @@ Status/Ocena:                         Porażka
 Cel testu:                            Filtrowanie produktów po cenie - przypadek negatywny
 Stan początkowy:                      Strona główna http://automationpractice.com/index.php
 Akcja:                                
-                                      1. Wybór katerogii "Women"
+                                      1. Wybór kategorii "Women"
                                       2. Wybór ceny z przedziału $16 - $29.69
 Oczekiwana wartość:                   Wyświetlenie produktów w cenach również spoza wybranego przedziału cenowego
 Wartość testu:                        Zamrożenie strony
