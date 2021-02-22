@@ -1,6 +1,6 @@
 Cześć
 
-W swoim repozytorium chciałam przedstawić moje umiejętności testerskie przede wszystkim w zakresie testowania manualnego. Projekt testerski polega na przetestowaniu strony sklepu internetowego funkcjonującego pod adresem http://automationpractice.com/index.php. Składa się z kilku dokumentów w skład których wchodzi:
+W moim repozytorium chciałam przedstawić swoje umiejętności testerskie, przede wszystkim w zakresie testowania manualnego. Projekt testerski polega na przetestowaniu strony sklepu internetowego funkcjonującego pod adresem http://automationpractice.com/index.php. Składa się z kilku dokumentów w skład których wchodzi:
 1. Plan testów 
 2. Przypadki testowe (wybrane)
 3. Scenariusz testowy - filtr
