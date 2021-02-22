@@ -1,87 +1,88 @@
 Nazwa projektu: Testowanie sklepu internetowego 
-Imię i nazwisko autora: Anna Mrowczyk
-Wersja: 1.0
+	Imię i nazwisko autora: Anna Mrowczyk
+	Wersja: 1.0
+	
+	I. WSTĘP
+	Projekt polega na przetestowaniu strony internetowej o adresie: http://automationpractice.com/index.php
+	Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego klienta o dokonaniu zakupu w sklepie internetowym.
+	Materiały, które dostarczy testowanie przekazane zostaną deweloperow celem wprowadzenia poprawek. W drugiej kolejności przeprowadzone zostaną testy regresyjne. 
+	
+	II. OPIS
+	
+	1. Obiekt
+	http://automationpractice.com/index.php
+	
+	2. Lista rzeczy do przetestowania
+	- zakładanie konta,
+	- logowanie do konta,
+	- odzyskiwanie hasła,
+	- dodawanie produktu do koszyka,
+	- zakup,
+	- dodawanie produktu do listy ulubionych,
+	- sortowanie i filtorwanie prouktów,
+	- wyszukiwanie produktów.
+	
+	3. Lista rzeczy których nie należy testować
+	- wszystko co znajduje się w stopce strony,
+	- zabezpieczenia,
+	- kod źródłowy.
+	
+	4. Wymagania systemowe
+	OS
+	  - Windows 7 i wyższy
+	  - Android 8 i wyższy
+	Przeglądarka
+	  - Chrome
+	  - Firefox
+	
+	5. System śledzenia błędów
+	Błędy należy zgłaszać poprzez Issues. 
+	Tytuł powinien zostać skonstruowany jak poniżej:
+	[Urządzenie(Przeglądarka)][Obszar] - Opis błędu
+	Przykład: 
+	        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto używając na e-mail dla którego już istnieje konto
+	        
+	III. Zarządzanie projektem testerskim
+	
+	1. Zespół i zadania
+	Maria Kowalska - tester,
+	Tomasz Kwiatek - tester,
+	Anna Mrowczyk - tester,
+	Mariusz Noga - deweloper,
+	Katarzyna Kwik - lider projektu.
+	
+	2. Harmonogram testów
+	Rozpoczęcie testów 04.01.2021
+	Zakończenie testów 15.01.2021
+	Prace deweloperskie 18-29.01.2021
+	Testy regresyjne 1-5.02.2021
+	
+	3. Środowisko testów
+	Windows 7 (Chrome)
+	Windows 10 (Firefox)
+	Android 9.0 (Chrome)
+	
+	4. Narzędzia testowe
+	- program do robienia zrzutów ekranu,
+	- program do nagrywania działań na ekranie,
+	- githube.com,
+	- Selenium IDE.
+	
+	5. Kryteria zakończenia testów
+	Termin zakończenia 15.01.2021 lub osiągnięcie limitu błędów - 100.  
+	
+	6. Defekty
+	Rodzaje defektów: funkcjonalne, wizualne, kontekstowe, wydajnościowe.
+	
+	Ważność: 
+	      krytyczny (brak możliwości korzystania ze strony),
+	      wysoki (znaczne utrudnione korzystanie ze strony),
+	      średni (niewielki utrudnione korzystanie ze strony),
+	      niski (kosmetyczne błędy).
+	      
+	7. Śledzenie statusu błędów i raportowanie
+	Raportowanie błędów odbywać się będzie na platformie https://github.com/anmro/Anna-Mrowczyk/issues,
+	
+	8. Ryzyko
+	Potencjalna zbyt duża ilość błędów i za krótki czas na ich zgłoszenie. W dalszej kolejności mało czasu na naprawę defektów. 
 
-I. WSTĘP
-Projekt polega na przetestowaniu strony internetowej o adresie: http://automationpractice.com/index.php
-Celem projektu jest zidentyfikowanie błędów mogących wpłynąć na decyzję potencjalnego klienta o dokonaniu zakupu w sklepie internetowym.
-Materiały, które dostarczy testowanie przekazane zostaną deweloperow celem wprowadzenia poprawek. W drugiej kolejności przeprowadzone zostaną testy regresyjne. 
-
-II. OPIS
-
-1. Obiekt
-http://automationpractice.com/index.php
-
-2. Lista rzeczy do przetestowania
-- zakładanie konta,
-- logowanie do konta,
-- odzyskiwanie hasła,
-- dodawanie produktu do koszyka,
-- zakup,
-- dodawanie produktu do listy ulubionych,
-- sortowanie i filtorwanie prouktów,
-- wyszukiwanie produktów.
-
-3. Lista rzeczy których nie należy testować
-- wszystko co znajduje się w stopce strony,
-- zabezpieczenia,
-- kod źródłowy.
-
-4. Wymagania systemowe
-OS
-  - Windows 7 i wyższy
-  - Android 8 i wyższy
-Przeglądarka
-  - Chrome
-  - Firefox
-
-5. System śledzenia błędów
-Błędy należy zgłaszać poprzez Issues. 
-Tutuł powinien zostać skonstruowany jak poniżej:
-[Urządzenie(Przeglądarka)][Obszar] - Opis błędu
-Przykład: 
-        [Windows 7(Chrome)][Konto] - Można utworzyć nowe konto używająć na e-mail dla którego już istnieje konto
-        
-III. Zarządzanie projektem testerskim
-
-1. Zespół i zadania
-Maria Kowalska - tester,
-Tomasz Kwiatek - tester,
-Anna Mrowczyk - tester,
-Mariusz Noga - deweloper,
-Katarzyna Kwik - lider projektu.
-
-2. Harmonogram testów
-Rozpoczęcie testów 04.01.2021
-Zakończenie testów 15.01.2021
-Prace deweloperskie 18-29.01.2021
-Testy regresyjne 1-5.02.2021
-
-3. Środowisko testów
-Windows 7 (Chrome)
-Windows 10 (Firefox)
-Android 9.0 (Chrome)
-
-4. Narzędzia testowe
-- program do robienia zrzutów ekranu,
-- program do nagrywania działań na ekranie,
-- githube.com,
-- Selenium IDE.
-
-5. Kryteria zakończenia testów
-Termin zakończenia 15.01.2021 lub osiągnięcie limitu błędów - 100.  
-
-6. Defekty
-Rodzaje defektów: funkcjonalne, wizualne, kontekstowe, wydajnościowe.
-
-Ważność: 
-      krytyczny (brak możliwości korzystania ze strony),
-      wysoki (znaczne utrudnione korzystanie ze strony),
-      średni (niewielki utrudnione korzystanie ze strony),
-      niski (kosmetyczne błędy).
-      
-7. Śledzenie statusu błędów i raportowanie
-Raportowanie błędów odbywać się będzie na platformie https://github.com/anmro/Anna-Mrowczyk/issues,
-
-8. Ryzyko
-Potencjalna zbyt duża ilość błędów i za krótki czas na ich zgłoszenie. W dalszej kolejności mało czasu na naprawę defektów. 
