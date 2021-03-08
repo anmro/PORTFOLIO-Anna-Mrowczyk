@@ -1,3 +1,6 @@
-Przetestowanie funkcji logowania do konta w związku z naprawą błędu pojawiajacego się przy zmianie hasła. 
+Przetestowanie funkcji logowania do konta w związku z naprawą błędu pojawiającego się przy zmianie hasła. 
 Termin: 01-05.02.2021
 
+Przetestowanie funkcji dodawania produktu do koszyka i usuwanie produktu z koszyka, a także zwiększanie i zmniejszanie ilości produktów w koszyku.
+Celem tego testowania jest sprawdzenie czy działania naprawcze związane ze zgłoszonymi błędami odnośnie sortowania i filtrowania nie wpłynęły na te funkcjonalności.
+Termin: 8-12.02.2021
